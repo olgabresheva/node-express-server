@@ -1,3 +1,3 @@
 export default function home(req, res) {
-  res.send('Hello, Home-!!-');
+  res.status(200).send('Hello, Home-!!-');
 }
