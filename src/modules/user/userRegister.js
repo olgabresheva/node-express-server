@@ -14,8 +14,10 @@ export default function userRegister(req, res) {
       });
     })
     .catch((err) => {
-      res.status(500).json({
+      res.status(400).json({
+        message: 'User Not registered',
         error: err,
       });
-    });
+    })
+    .finally(() => {});
 }
