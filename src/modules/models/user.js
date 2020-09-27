@@ -15,6 +15,7 @@ const userSchema = new Schema({
     select: false,
   },
   name: String,
+  age: Number,
 });
 
 // userSchema.index({ email: 1 }, { unique: true });
