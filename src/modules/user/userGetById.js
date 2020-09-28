@@ -12,4 +12,5 @@ export default function userGetById(req, res) {
       res.status(400).json('User Not Found');
     })
     .finally();
+  // always used
 }
